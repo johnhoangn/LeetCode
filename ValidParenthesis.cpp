@@ -9,6 +9,8 @@
 * Runtime: 0 ms, faster than 100.00% of C++ online submissions for Valid Parentheses.
 * Memory Usage: 6.4 MB, less than 44.26% of C++ online submissions for Valid Parentheses.
 *
+* https://i.imgur.com/CICvqSi.png
+*
 * Not going to resubmit so I can show it off!
 */
 
