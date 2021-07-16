@@ -2,6 +2,17 @@
 #include<string>
 #include<iostream>
 
+
+/* 
+* This was an interesting bug:
+*
+* Runtime: 0 ms, faster than 100.00% of C++ online submissions for Valid Parentheses.
+* Memory Usage: 6.4 MB, less than 44.26% of C++ online submissions for Valid Parentheses.
+*
+* Not going to resubmit so I can show it off!
+*/
+
+
 class node {
     public:
         node* next = NULL;
@@ -96,6 +107,10 @@ bool isValid(std::string s) {
 
 int main() {
     std::cout << isValid("()()") << "\n";
-    std::cout << "HELLO, WORLD!";
+    std::cout << isValid("[[()()]]") << "\n";
+    std::cout << isValid("{{[[()()]]}}") << "\n";
+    std::cout << isValid("{{{(([[()()]]))}}}") << "\n";
+    std::cout << isValid("[[[{{{()()}}}]]]") << "\n";
+    std::cout << isValid("}{") << "\n";
     return 0;
 }
