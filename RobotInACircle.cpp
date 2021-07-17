@@ -1,6 +1,9 @@
 /*
 * Making sure the simulation code is correct turns out to be very important!
 *
+* Got a funny runtime result again
+* https://i.imgur.com/b1I9Y4C.png
+*
 * John Nguyen
 * 07.16.2021
 */
